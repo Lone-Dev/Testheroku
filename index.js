@@ -28,8 +28,8 @@ client.on('ready', async () => {
 
 var swearWord = ["kkr", "kanker", "kqnker", "kqnk3r"]
 //var link = ["https://", "www."]
-bot.on("message", async message => {
-    if (message.author.bot) return;
+client.on("message", async message => {
+    if (message.author.client) return;
     if (message.channel.type === "dm") return message.channel.send(":x: | Sorry, my commands do not work in DM.");
 
 
