@@ -41,7 +41,7 @@ client.on("message", async message => {
 
             message.delete();
 
-            var embedswear = new discord.MessageEmbed()
+            var embedswear = new MessageEmbed()
                 .setAuthor(`${message.author.tag} has been warned`, message.author.displayAvatarURL())
                 .setDescription(`**Reason:** Bad word usage`)
             return message.channel.send(embedswear)
