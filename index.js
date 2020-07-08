@@ -1,4 +1,3 @@
-const Command = require('./Structures/Command');
 const { utc } = require('moment');
 const os = require('os');
 const ms = require('ms');
