@@ -9,7 +9,7 @@ const PREFIX = 'n!'
 
 
 const client = new Client({ disableEveryone: true })
-const youtube = new YouTube(apikey)
+//const youtube = new YouTube(apikey)
 const queue = new Map()
 
 let readys = ['print ("Hello World")', 'Hello World.']
